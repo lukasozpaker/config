@@ -27,5 +27,8 @@ set smartindent
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
+set ignorecase          " needed for smartcase
+set smartcase           " search case insensitive unless contains Uppercase letter
+
 """" miscellaneous
 set background=dark
