@@ -34,3 +34,4 @@ set smartcase           " search case insensitive unless contains Uppercase lett
 
 """" miscellaneous
 set background=dark
+set t_Co=16
