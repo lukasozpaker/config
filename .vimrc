@@ -12,8 +12,10 @@ syntax enable
 filetype plugin indent on
 
 """" remaps
-:nnoremap <C-d> <C-d>zz
-:nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+vnoremap y "+y
+nnoremap yy "+yy
 
 """" tab settings
 set tabstop=4
@@ -32,4 +34,3 @@ set smartcase           " search case insensitive unless contains Uppercase lett
 
 """" miscellaneous
 set background=dark
-set clipboard=unnamed
