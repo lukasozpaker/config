@@ -3,12 +3,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="lozp"
 
-
 export KEYTIMEOUT=5  # kill escape deplay, 5 to be extra safe for ssh
-VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=false
 VI_MODE_SET_CURSOR=true  # cursor shape changes
-MODE_INDICATOR="%F{yellow} [VI NORMAL MODE]%f"
-INSERT_MODE_INDICATOR=""
+# MODE_INDICATOR="%F{yellow} [VI NORMAL MODE]%f"
+# INSERT_MODE_INDICATOR=""
 
 plugins=(
 	git
