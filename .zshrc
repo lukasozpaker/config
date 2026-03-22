@@ -20,4 +20,6 @@ source $ZSH/oh-my-zsh.sh
 
 bindkey -M viins '^[^?' backward-kill-word  # fix vi mode overriding option/alt backspace bc = esc
 
+alias vim=nvim
+
 # END LOZP ZSHRC CONFIG
