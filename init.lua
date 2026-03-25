@@ -45,6 +45,10 @@ require("lazy").setup({
 		opts = {
 			numhl = true,
 			signcolumn = false,
+			current_line_blame = true,
+			current_line_blame_opts = {
+				delay = 0,
+			},
 			on_attach = function(bufnr)
 				local gs = require('gitsigns')
 				local function map(mode, l, r, desc)
@@ -70,6 +74,8 @@ require("lazy").setup({
 })
 
 vim.cmd.colorscheme('horizon')
+vim.api.nvim_set_hl(0, 'GitSignsCurrentLineBlame', { link = 'Comment' })
+
 -------------------------------
 -- END LAZY NVIM AND PLUGINS
 -------------------------------
